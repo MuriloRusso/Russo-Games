@@ -1,0 +1,827 @@
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" type="imagem/png" href="img/logo.png" />
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/style.scss">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Russo Games</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="index.html">Início</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSite">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="produtosDrop">Produtos</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Jogos</a>
+                        <a class="dropdown-item" href="#">Consoles</a>
+                        <a class="dropdown-item" href="#">Acessórios</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Localização</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fale conosco</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Facebook</a>
+                        <a class="dropdown-item" href="#">Twitter</a>
+                        <a class="dropdown-item" href="#">Instragram</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <div id="carouselSite" class="carousel slide" data-ride="carousel" class="active">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="2"></li>
+        </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class='overlay'></div>
+                <img src="img/carousel/img-1.jpg" class="img-fluid d-block">
+                <div class="carousel-caption">
+                    <h3 class="h3-mob mb-md-2 mb-0">The Last of Us Part II</h3>
+                    <h3 class="h3-mob mb-md-2 mb-0 text-success"><strong>R$: 209,90</strong></h3>
+                    <p class="d-none d-md-block">The Last of Us Part II é um jogo eletrônico de ação-aventura desenvolvido pela Naughty Dog e publicado pela Sony Interactive Entertainment. É o segundo jogo da franquia The Last of Us e foi lançado em 19 de junho de 2020 exclusivamente para PlayStation 4.</p>
+                    <div class="card-footer p-0 p-md-3" align="center">
+                        <a href="#" class="card-link">
+                            <button type="button" class="text-light btn bg-primary col-md-3 col-8 p-1 p-md-2" data-toggle="modal" data-target="#tlou2Modal">Detalhes</button>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class='overlay'></div>
+                  <img src="img/carousel/img-2.jpg" class="img-fluid d-block">
+                  <div class="carousel-caption">
+                    <h3 class="h3-mob mb-md-2 mb-0">God of War</h3>
+                      <h3 class="h3-mob mb-md-2 mb-0 text-success"><strong>R$: 89,90</strong></h3>
+                    <p class="d-none d-md-block">God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment (SIE). Lançado mundialmente em 20 de abril de 2018 para o PlayStation 4, é o oitavo título da série God of War e também o oitavo em ordem cronológica, sendo sequência dos eventos ocorridos em God of War III (2010).</p>
+                    <div class="card-footer p-0 p-md-3" align="center">
+                        <a href="#" class="card-link">
+                            <button type="button" class="text-light btn bg-primary col-md-3 col-8 p-1 p-md-2" data-toggle="modal" data-target="#gowModal">Detalhes</button>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                  <div class='overlay'></div>
+                  <img src="img/carousel/img-3.png" class="img-fluid d-block">
+                  <div class="carousel-caption">
+                    <h3 class="h3-mob mb-md-2 mb-0">Ghost of Tsushima</h3>
+                      <h3 class="h3-mob mb-md-2 mb-0 text-success"><strong>R$: 179,90</strong></h3>
+                    <p class="d-none d-md-block">Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. Foi lançado em 17 de julho de 2020 exclusivamente para PlayStation 4.</p>
+                    <div class="card-footer p-0 p-md-3" align="center">
+                        <a href="#" class="card-link">
+                            <button type="button" class="text-light btn bg-primary col-md-3 col-8 p-1 p-md-2" data-toggle="modal" data-target="#gotModal">Detalhes</button>
+                        </a>
+                    </div>
+                </div>
+              </div>
+          </div>
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+        </a>
+    </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-2 my-md-5">
+                <h1 class="display-4 h1-mob">Promoções</h1>
+                <p class="text-secondary">Confira abaixo as promoções do momento da nossa loja.</p>
+            </div>  
+        </div>
+           <div class="row mb-5">
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#infamousModal">
+                        <img class="card-img-top" src="img/promocoes/img-1.jpg">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Infamous Second Son</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 59,90</strong></h6>
+                        <p class="card-text text-secondary">Esolha entre herói, ou vilão</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#infamousModal">Comprar</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#horizonModal">
+                        <img class="card-img-top" src="img/promocoes/img-2.webp">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Horizon Zero Dawn</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 69,90</strong></h6>
+                        <p class="card-text text-secondary">Lute com diversas máquinas.</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#horizonModal">Comprar</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#unchartedModal">
+                        <img class="card-img-top" src="img/promocoes/img-3.webp">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Uncharted 4: A Thief’s End</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 59,90</strong></h6>
+                        <p class="card-text text-secondary">Vive uma verdadeira aventura.</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#unchartedModal">Comprar</button>
+                            </a>                        </div>
+                    </div>  
+                </div>
+            </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 h1-mob">Destaques</h1>
+                    <p class="lead text-secondary">Confira abaixo os maiores destaques de Playstation.</p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center text-center" id="pills-nav" role="tablist">
+                        <li class="nav-item col-md-4 col-10">
+                            <a class="nav-link active" id="nav-pills-01" data-toggle="pill" href="#nav-item-01">The Last of Us Part II</a>
+                        </li>
+                        <li class="nav-item col-md-4 col-10">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Spider-Man Miles Morales</a>
+                        </li>
+                        <li class="nav-item col-md-4 col-10">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">God of War</a>
+                        </li>
+                    
+                    </ul>
+                    <hr>
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TXl9GI1p_Os">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <h3 class="display-5 text-center mt-lg-0 mt-3">The Last of Us Part II</h3>
+                                    <p class="text-secondary">The Last of Us Part II é um jogo eletrônico de ação-aventura desenvolvido pela Naughty Dog e publicado pela Sony Interactive Entertainment. É o segundo jogo da franquia The Last of Us e foi lançado em 19 de junho de 2020 exclusivamente para PlayStation 4. Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico.</p>
+                                    <div align="center">
+                                        <a href="#" class="card-link text-light">
+                                            <button type="button" class="text-light btn bg-primary col-lg-5 col-8" data-toggle="modal" data-target="#tlou2Modal">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gHzuHo80U2M">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <h3 class="display-5 text-center mt-lg-0 mt-3">Spider-Man Miles Morales</h3>
+                                    <p class="text-secondary">Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man.
+
+Mas quando uma violenta disputa de forças ameaça destruir sua vizinhança, o aspirante a herói percebe que com grandes poderes também vêm grandes responsabilidades. Para salvar a Nova York da Marvel, Miles deve reconhecer e assumir o título de Spider-Man.</p>
+                                    <div align="center">
+                                        <a href="#" class="card-link text-light">
+                                            <button type="button" class="text-light btn bg-primary col-lg-5 col-8" data-toggle="modal" data-target="#spider-manModal">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FyIwEFXOcaE">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <h3 class="display-5 text-center mt-lg-0 mt-3">God of War</h3>
+                                    <p class="text-secondary">God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment (SIE). Lançado mundialmente em 20 de abril de 2018 para o PlayStation 4, é o oitavo título da série God of War e também o oitavo em ordem cronológica, sendo sequência dos eventos ocorridos em God of War III (2010). Ao contrário dos jogos anteriores, que eram vagamente baseados na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a maior parte do tempo situado na antiga Noruega no reino de Midgard.</p>
+                                    <div align="center">
+                                        <a href="#" class="card-link text-light">
+                                            <button type="button" class="text-light btn bg-primary col-lg-5 col-8" data-toggle="modal" data-target="#gowModal">Comprar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-2 my-md-5">
+                <h1 class="display-4 h1-mob">Lançamentos</h1>
+                <p class="text-secondary">Confira abaixo os lançamentos de Playstation.</p>
+            </div>  
+        </div>
+           <div class="row mb-5">
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#cyberpunkModal">
+                        <img class="card-img-top" src="img/lancamentos/img-1.jpg">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cyberpunk 2077</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 259,90</strong></h6>
+                        <p class="card-text text-secondary">Esolha entre herói, ou vilão</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#cyberpunkModal">Comprar</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#spider-manModal">
+                        <img class="card-img-top" src="img/lancamentos/img-2.png">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Spider-Man Miles Morales</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 239,90</strong></h6>
+                        <p class="card-text text-secondary">Lute com diversas máquinas.</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#spider-manModal">Comprar</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#acModal">
+                        <img class="card-img-top" src="img/lancamentos/img-3.jpg">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Assassins Creed Valhalla</h5>
+                        <h6 class="card-subtitle mb-2 text-success"><strong>R$: 239,90</strong></h6>
+                        <p class="card-text text-secondary">Vive uma verdadeira aventura.</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#acModal">Comprar</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 h1-mob">Em breve</h1>
+                    <p class="lead text-secondary">Confira abaixo os maiores destaques de Playstation.</p>
+                    <hr>
+                </div>
+            </div>  
+            <h3 class="display-5 text-center">Horizon Forbidden West</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lq594XmpPBg"></iframe>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent" align="center">
+                        <p class="text-secondary">Horizon Forbidden West é um futuro jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment para PlayStation 4 e PlayStation 5. É a sequência de Horizon Zero Dawn, de 2017, sendo ambientada em um mundo aberto pós-apocalíptico com uma perspectiva em terceira pessoa. Os jogadores controlam a protagonista Aloy, uma caçadora de máquinas, enquanto viaja para uma América ocidental devastada por tempestades maciças e máquinas mortais. Foi anunciado no evento de revelação do PlayStation 5 em junho de 2020.</p>
+                        <a href="#" class="card-link">
+                            <button type="button" class="text-light btn bg-primary col-8 col-md-3" data-toggle="modal" data-target="#horizon2Modal">Ver mais</button>
+                        </a>
+                    </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-2 my-md-5">
+                <h1 class="display-4 h1-mob">Diversos</h1>
+                <p class="text-secondary">Consoles, acessórios e mais...</p>
+            </div>  
+        </div>
+           <div class="row mb-5">
+              <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#consolesModal">
+                        <img class="card-img-top" src="img/diversos/img-1.jpg">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Consoles</h5>
+                        <p class="card-text text-secondary">Playstation 4, Playstation 5, xBox one, nintendo switch entre outros!</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#consolesModal">Ver</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#acessoriosModal">
+                        <img class="card-img-top" src="img/diversos/img-2.jpg">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Acessórios</h5>
+                        <p class="card-text text-secondary">Head-set, controles, teclados, mouses, telas, entre outros!</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#acessoriosModal">Ver</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+               <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-0 mt-3">
+                <div class="card">
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#outrosModal">
+                        <img class="card-img-top" src="img/diversos/img-3.png">
+                    </a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Outros</h5>
+                        <p class="card-text text-secondary">Skins, enfeites, edições de colecionador, entre outros!</p>
+                    </div>
+                        <div class="card-footer" align="center">
+                            <a href="#" class="card-link">
+                                <button type="button" class="text-light btn bg-primary col-8" data-toggle="modal" data-target="#outrosModal">Ver</button>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+      </div>
+       <div class="bg-primary row col-12 ml-0 text-light text-center">
+        <!--<div class="col-12 mb-3"><hr></div>-->
+          <div class="col-sm-4 ml-1 mr-1 mt-4">
+                <h3>Sobre Nós</h3>
+                <p>Russo Games é uma loja virtual ficticia de games, criada para utilização de portifólio, todos os produtos e preços anunciados na loja são meramente ilustrativos.</p>
+            </div>
+          <div class="col-sm-3 mt-1">
+                <h3>Social</h3>
+                <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                    <a class="btn btn-outline-light" href="#"><img class="midia" src="img/midias/face.png"><p class="mb-0">Facebook</p></a>
+                    <a class="btn btn-outline-light" href="#"><img class="midia" src="img/midias/insta.png"><p class="mb-0">Instagram</p></a>
+                    <a class="btn btn-outline-light" href="#"><img class="midia" src="img/midias/twitter.png"><p class="mb-0">Twitter</p></a>
+                </div>
+            </div>
+           <div class="col-sm-4 ml-1 mr-1 mt-4">
+                <h3>Frete grátis a partir de R$ 99</h3> 
+                <p>Só por estar cadastrado no Mercado Livre, você tem frete grátis em milhares de produtos. É um benefício do Mercado Pontos.</p>
+            </div>
+      </div>
+      
+      
+      <!-- modal -->
+      <!-- infamous -->
+      <div class="modal fade" id="infamousModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Infamous Second Son</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/promocoes/img-1.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 59,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Infamous Second Son é um jogo eletrônico de ação-aventura produzido pela Sucker Punch Productions e publicado pela Sony Computer Entertainment em exclusivo para a PlayStation 4 em 21 de Março de 2014. Infamous: Second Son é o terceiro titulo principal da série Infamous e foi anunciado oficialmente durante uma conferência de imprensa da Sony, com o nome "PlayStation Meeting", a 20 de Fevereiro de 2013.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Horizon -->
+      <div class="modal fade" id="horizonModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Horizon Zero Dawn</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/promocoes/img-2.webp" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 69,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Horizon Zero Dawn é um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment. Foi lançado em 28 de fevereiro de 2017 para PlayStation 4 e em 7 de agosto de 2020 para Microsoft Windows. A trama segue Aloy, uma caçadora em um mundo invadido por máquinas, que decide descobrir seu passado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+    <!-- Uncharted -->
+      <div class="modal fade" id="unchartedModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Uncharted 4: A Thief’s End</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/promocoes/img-3.webp" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 59,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Uncharted 4: A Thief's End é um jogo eletrônico de ação-aventura desenvolvido pela Naughty Dog e publicado pela Sony Computer Entertainment. É o quarto título principal da série Uncharted e foi lançado exclusivamente para PlayStation 4 em 10 de maio de 2016. Na história, os jogadores controlam Nathan Drake, um ex-caçador de tesouros que é persuadido a sair da aposentadoria pelo aparecimento de seu irmão mais velho Samuel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- The last of us part 2 -->
+      <div class="modal fade" id="tlou2Modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>The Last of Us Part II</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/carousel/img-1.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 69,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            The Last of Us Part II é um jogo eletrônico de ação-aventura desenvolvido pela Naughty Dog e publicado pela Sony Interactive Entertainment. É o segundo jogo da franquia The Last of Us e foi lançado em 19 de junho de 2020 exclusivamente para PlayStation 4. Ambientado cinco anos após os eventos de The Last of Us (2013), o jogador assume o papel de duas protagonistas em um Estados Unidos pós-apocalíptico.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- God of War -->
+      <div class="modal fade" id="gowModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>God of War</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/carousel/img-2.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 69,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment (SIE). Lançado mundialmente em 20 de abril de 2018 para o PlayStation 4, é o oitavo título da série God of War e também o oitavo em ordem cronológica, sendo sequência dos eventos ocorridos em God of War III (2010). Ao contrário dos jogos anteriores, que eram vagamente baseados na mitologia grega, este título é vagamente baseado na mitologia nórdica, com a maior parte do tempo situado na antiga Noruega no reino de Midgard.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Ghost of Tsuchima -->
+      <div class="modal fade" id="gotModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Ghost of Tsushima</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/carousel/img-3.png" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 69,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Ghost of TsushimaGhost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. Foi lançado em 17 de julho de 2020 exclusivamente para PlayStation 4. A história gira em torno de Jin Sakai, o último samurai na Ilha de Tsushima durante a primeira invasão Mongol no Japão no século XIII.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Horizon 2 -->
+      <div class="modal fade" id="horizon2Modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Horizon Forbidden West</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/embreve/img.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Horizon Forbidden West é um futuro jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment para PlayStation 4 e PlayStation 5. É a sequência de Horizon Zero Dawn, de 2017, sendo ambientada em um mundo aberto pós-apocalíptico com uma perspectiva em terceira pessoa. Os jogadores controlam a protagonista Aloy, uma caçadora de máquinas, enquanto viaja para uma América ocidental devastada por tempestades maciças e máquinas mortais. Foi anunciado no evento de revelação do PlayStation 5 em junho de 2020.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Cyberpunk 2077 -->
+      <div class="modal fade" id="cyberpunkModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Cyberpunk 2077</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/lancamentos/img-1.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 259,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            O Cyberpunk 2077 é uma história de aventura e ação de mundo aberto ambientada em Night City, uma megalópole obcecada por poder, glamour e modificações corporais. Você joga como V, um bandido mercenário em busca de um implante único que é a chave para a imortalidade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Spider-Man 2077 -->
+      <div class="modal fade" id="spider-manModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Spider-Man Miles Morales</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/lancamentos/img-2.png" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 239,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man. Mas quando uma violenta disputa de forças ameaça destruir sua vizinhança, o aspirante a herói percebe que com grandes poderes também vêm grandes responsabilidades. Para salvar a Nova York da Marvel, Miles deve reconhecer e assumir o título de Spider-Man.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Assassins Creed -->
+      <div class="modal fade" id="acModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Assassins Creed Valhalla</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/lancamentos/img-3.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center text-success mt-1"><strong>R$: 239,90</strong></h5>
+                            <h5 class="container text-center">Descrição:</h5>
+                            <p class="ml-4 mr-4">
+                            Assassin's Creed: Valhalla acompanha Eivor, protagonista que pode ser homem ou mulher, à escolha do jogador, e que comanda grandes exércitos em batalhas contra os saxões. O título traz personagens e história inéditos, mas mantém as características únicas da franquia
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Comprar</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Consoles -->
+      <div class="modal fade" id="consolesModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Consoles</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/diversos/img-1.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center">Consoles</h5>
+                            <p class="ml-4 mr-4">
+                            Nossa Loja possui diversos tipos de consoles, desde da nova geração como Playstation 5 e XBox Series X/S, como da geração anterior, como Playstation 4, XBox One, e Nintendo Switch, também possuimos diversos consoles classicos, como,Mega Driver, Atari, Playstation 1,2,3, XBox, XBox 360, Nintendo 64 e entre outros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary" onClick='comprar()'>Ver mais</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Acessorios -->
+      <div class="modal fade" id="acessoriosModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Acessórios</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/diversos/img-2.jpg" class="col-12">
+                            </div>
+                            <h5 class="container text-center">Acessórios</h5>
+                            <p class="ml-4 mr-4">
+                            Nossa Loja conta com diversos tipos de acessório games, desde de Head-Sets, Controles, Mouses, Teclados, Capacetes de realidade virtual, Telas entre outros
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary">Ver mais</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+      <!-- Outros -->
+      <div class="modal fade" id="outrosModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><h5>Diversos</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="img/diversos/img-3.png" class="col-12">
+                            </div>
+                            <h5 class="container text-center">Diversos</h5>
+                            <p class="ml-4 mr-4">
+                            Nossa loja conta com diversos tipos de produtos games, como Skins personalidas para todo tipo de consoles, Posters, Enfeites, Camisas, entre outros.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    <a href="#"><button type="button" class="btn btn-primary">Ver mais</button></a>
+                </div>
+            </div>
+        </div> 
+      </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        function comprar(){
+            alert('Compra realizada com sucesso!');
+        }  
+    </script>
+  </body>
+</html>
